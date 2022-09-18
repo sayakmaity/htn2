@@ -1,5 +1,7 @@
 #welcome {
     color: blue;
+    font-family: 'Manrope', sans-serif;
+
 }
 
 #container {
@@ -7,7 +9,7 @@
 }
 
 p {
-    font-family: 'Nunito';
+    font-family: 'Manrope', sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 20px;
@@ -30,8 +32,15 @@ p {
     height: 40px;
     /* left: 548px;
     top: 682px; */
+    
     background: #1857B6;
     border-radius: 10px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin: 0 auto;
+    display: block;
 }
 
 #rectangle {
@@ -79,15 +88,53 @@ p {
     border: 5px;
 }
 
-.card-title{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.card-title {
+    font-family: 'Manrope', sans-serif;
     color: blue;
 }
 
-body{
-    background:url('/background.png') no-repeat center center fixed;
-    -webkit-background-size:cover;
-    -moz-background-size:cover;
+body {
+    background: url('/background.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
+
+.form-check {
+    margin: auto;
+    width: 60%;
+    /* border: 5px solid #FFFF00; */
+    padding: 10px;
+}
+
+input[type=checkbox] {
+    /* Double-sized Checkboxes */
+    -ms-transform: scale(2);
+    /* IE */
+    -moz-transform: scale(2);
+    /* FF */
+    -webkit-transform: scale(2);
+    /* Safari and Chrome */
+    -o-transform: scale(2);
+    /* Opera */
+    transform: scale(2);
+    padding: 0px;
+}
+
+.form-check-input {
+    margin: auto;
+}
+
+.form-check-label {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 200;
+    font-size: 30px;
+    margin-left: 50px;
+}
+
+.card-title {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 100;
+}
+
